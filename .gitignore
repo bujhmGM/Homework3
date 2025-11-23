@@ -29,4 +29,5 @@ bin/
 ### Mac OS ###
 .DS_Store
 /.idea/
-/HW3.iml
+/HW3
+*.iml
