@@ -12,12 +12,12 @@ public class Main {
         long l = 0x18;
         float f = 1.88888888f;
         double d = 1.999999999d;
-        System.out.println("i переменная int целочисленные =" + i );
-        System.out.println("b переменная byte целочисленные =" + b );
-        System.out.println("s переменная short целочисленные =" + s );
-        System.out.println("l переменная long целочисленные =" + l );
-        System.out.println("f переменная float с плавоющей точкой =" + f );
-        System.out.println("d переменная double с плавоющей точкой =" + d );
+        System.out.println("значение переменой i с типом int целочисленные =" + i );
+        System.out.println("значение переменой b с типом byte целочисленные =" + b );
+        System.out.println("значение переменой s с типом short целочисленные =" + s );
+        System.out.println("значение переменой l с типом long целочисленные =" + l );
+        System.out.println("значение переменой f с типом float с плавоющей точкой =" + f );
+        System.out.println("значение переменой d с типом double с плавоющей точкой =" + d );
 
         System.out.println("Задача №2");
         float cC = 27.12f;
@@ -32,13 +32,13 @@ public class Main {
         System.out.println(gG);
         System.out.println(hH);
         System.out.println("Задача №3");
-        byte lP = 23;
-        byte fS = 27;
-        byte eA = 30;
-        short listA4 = 480;
-        int student = lP + fS + eA;
-        int listStudent = listA4 / student;
-        System.out.println("На каждого ученика рассчитано " + listStudent + " листов бумаги ");
+        byte xlydmilaP = 23;
+        byte xAnnaS = 27;
+        byte xEkaterinaA = 30;
+        short xListA4 = 480;
+        int student = xlydmilaP + xAnnaS + xEkaterinaA;
+        int xListStudent = xListA4 / student;
+        System.out.println("На каждого ученика рассчитано " + xListStudent + " листов бумаги ");
         System.out.println("Задача №4");
         byte productionTwoMin = 16;
         byte min20 = 10;
@@ -72,10 +72,10 @@ public class Main {
         System.out.println("вес завтрака = " + zavtrak + " в гр.; В кг. =" + zavtrakKg + " кг.");
         System.out.println("Задача №7");
         int exWeight = 7000;
-        int lossWeight250 = 250;
-        int lossWeinght500 = 500;
-        int goodWeighnt1 = exWeight / lossWeight250;
-        int goodWeighnt2 = exWeight / lossWeinght500;
+        int xlossWeight250 = 250;
+        int xlossWeinght500 = 500;
+        int goodWeighnt1 = exWeight / xlossWeight250;
+        int goodWeighnt2 = exWeight / xlossWeinght500;
         int goodWeighnt3 = (goodWeighnt1 + goodWeighnt2) / 2;
         System.out.println("если спортсмен теряет по 250гр. = " + goodWeighnt1 + "дней, если по 500гр. = " + goodWeighnt2 + "дней, а в случаее среднего значения = " + goodWeighnt3);
         System.out.println("Задача №8");
@@ -92,7 +92,7 @@ public class Main {
 
         System.out.println("Маша получаут " + newMashaCash + " Годовой доход вырос =" + bonusMasha * 12);
         System.out.println("Денис получаут " + newDenisCash + " Годовой доход вырос =" + bonusDenis * 12);
-        System.out.println("Маша получаут " + newKristinaCash + " Годовой доход вырос =" + bonusKristina * 12);
+        System.out.println("Кристина получаут " + newKristinaCash + " Годовой доход вырос =" + bonusKristina * 12);
 
     }
 }
